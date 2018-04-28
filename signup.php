@@ -1,7 +1,7 @@
 <?php 
-	session_start();
-	include 'dbh1.php';
-	$first = $_POST['first'];
+	session_start();    // create signup
+	include 'dbh1.php';  
+	$first = $_POST['first'];  
 	$last = $_POST['last'];
 	$uid = $_POST['uid'];
 	$pwd = $_POST['pwd'];	
